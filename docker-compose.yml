@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   database:
-      image: mdillon/postgis:11
+      image: postgres
       volumes:
         - delever_pgdata:/var/lib/postgresql/data
       environment:
